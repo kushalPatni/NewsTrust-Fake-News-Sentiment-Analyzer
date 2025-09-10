@@ -1,0 +1,1 @@
+# NewsTrust-Fake-News-Sentiment-Analyzer
