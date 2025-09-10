@@ -1,0 +1,11 @@
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+torch==2.8.0+cpu
+transformers
+pycaret
+wordcloud
+vaderSentiment
+streamlit
