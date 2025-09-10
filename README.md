@@ -100,18 +100,21 @@ Accuracy: ~70%
 Neutral class underperforming due to imbalance
 
 📊 Results
-Fake News Detection
-Metric	Fake	True	Average
-Precision	0.87	0.90	0.89
-Recall	0.89	0.88	0.89
-F1-score	0.88	0.89	0.89
-Accuracy			0.89
-Sentiment Analysis (3-Class)
-Sentiment	Precision	Recall	F1-score
-Negative	0.75	0.84	0.79
-Neutral	0.40	0.13	0.20
-Positive	0.61	0.58	0.60
-Accuracy			0.70
+| Metric    | Fake | True | Average  |
+| --------- | ---- | ---- | -------- |
+| Precision | 0.87 | 0.90 | 0.89     |
+| Recall    | 0.89 | 0.88 | 0.89     |
+| F1-score  | 0.88 | 0.89 | 0.89     |
+| Accuracy  |      |      | **0.89** |
+
+
+| Sentiment            | Precision | Recall | F1-score |
+| -------------------- | --------- | ------ | -------- |
+| Negative             | 0.75      | 0.84   | 0.79     |
+| Neutral              | 0.40      | 0.13   | 0.20     |
+| Positive             | 0.61      | 0.58   | 0.60     |
+| **Overall Accuracy** |           |        | **0.70** |
+
 🖥️ Streamlit UI
 
 The project includes a Streamlit app with three main sections:
